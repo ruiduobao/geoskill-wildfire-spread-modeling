@@ -2,8 +2,8 @@
   "skill": "wildfire-spread-modeling",
   "skill_version": "1.0.0",
   "command": "wildfire-spread-modeling --bbox 116 39 117 40 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T21:13:43.475952Z",
-  "finished_at": "2026-08-03T21:13:43.603873Z",
+  "started_at": "2026-11-02T16:00:20.652315Z",
+  "finished_at": "2026-11-02T16:00:20.850539Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\burned_area.tif",
+      "path": "./_test_cli_out/burned_area.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -37,7 +37,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\arrival_time.tif",
+      "path": "./_test_cli_out/arrival_time.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -54,7 +54,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\fire_params.json",
+      "path": "./_test_cli_out/fire_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -74,7 +74,7 @@
     "final_area": 396
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "wildfire-spread-modeling"
   },
   "error": null
